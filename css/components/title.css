@@ -1,4 +1,4 @@
-h2 {
+.title {
     font-family: var(--feature-font);
     font-size: 40px;
     text-shadow: 4px 4px 0 var(--dark-color);

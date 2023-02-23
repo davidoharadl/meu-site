@@ -1,4 +1,4 @@
-#box {
+.box {
     display: inline-block;
     background-color: var(--feature-primary-color);
     box-shadow: 10px 10px 0 var(--dark-color);
@@ -6,6 +6,6 @@
     padding: 42px 44px;
 }
 
-#box h2 {
+.box .title {
     margin-bottom: 28px;
 }
