@@ -1,0 +1,17 @@
+.button {
+    font-family: inherit;
+    display: inline-block;
+    background-color: var(--feature-color);
+    box-shadow: 5px 5px 0px var(--dark-color);
+    color: var(--primary-color);
+    font-size: 20px;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
