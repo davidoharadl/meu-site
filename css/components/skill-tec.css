@@ -1,5 +1,6 @@
 .skill-tec {
     display: flex;
+    align-items: center;
     font-family: var(--feature-font);
     color: var(--light-color);
     font-size: 25px;
@@ -7,6 +8,10 @@
 
 .skill-tec > .icon {
     margin-right: 25px;
+    width: 90px;
+}
+.skill-tec > .right > .title {
+    margin-bottom: 10px;
 }
 
 .skill-tec > .right {
