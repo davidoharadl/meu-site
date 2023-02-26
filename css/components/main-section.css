@@ -5,14 +5,15 @@
     border-bottom: 10px solid var(--feature-primary-color);
 }
 
-.section > .main-title {
+.main-section > .main-title {
     margin-bottom: 60px;
+    padding-top: 50px;
 }
 
-.section.-bgBlack {
+.main-section.-bgBlack {
     background-color: var(--dark-color);
 }
 
-.section.-bdSecond {
+.main-section.-bdSecond {
     border-color: var(--feature-second-color);
 }

@@ -1,4 +1,4 @@
-.button {
+.main-button {
     font-family: inherit;
     display: inline-block;
     background-color: var(--feature-color);
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.05);
     text-decoration: none;
 }

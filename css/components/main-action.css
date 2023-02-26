@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -7,11 +7,11 @@
     margin-right: 30px;
 }
 
-.action:hover {
+.main-action:hover {
     text-decoration: underline;
 }
 
-.action::before {
+.main-action::before {
     content: "";
     background-color: var(--second-color);
     width: 10px;
