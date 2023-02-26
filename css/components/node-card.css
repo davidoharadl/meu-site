@@ -1,0 +1,43 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    bottom: 140px;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed var(--dark-color);
+    transform: rotate(90deg) translateX(-62%);
+}
+
+.node-card > .title {
+    font-size: 25px;
+    font-weight: normal;
+    color: var(--light-color);
+    font-family: var(--feature-font);
+    margin-bottom: 50px;
+}
+
+.node-card > .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid var(--dark-color);
+    background-color: yellow;
+}
+
+.node-card.-clean > .logo { 
+    padding: 0;
+}
+
+.node-card.-first > .logo { 
+    background-color: var(--feature-color);
+}
