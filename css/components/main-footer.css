@@ -1,0 +1,14 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-color);
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.main-footer > .action:nth-child(even) {
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
